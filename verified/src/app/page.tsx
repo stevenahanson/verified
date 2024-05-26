@@ -7,16 +7,18 @@ export default function Home() {
       <div className="flex flex-col items-center">
         <Link
           href="/duel"
-          className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-full shadow-md transition duration-300 cursor-pointer"
+          className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 mb-6 px-6 rounded-full shadow-md transition duration-300 cursor-pointer"
         >
           Start Data Duel
         </Link>
-        <Link
-          href="/subscribe"
-          className="mt-4 text-blue-400 hover:text-blue-500 underline transition duration-300 cursor-pointer"
-        >
-          Upgrade Your Subscription
+        <Link href="/players">
+          <p className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full shadow-md transition duration-300 cursor-pointer">
+            View Player Stats
+          </p>
         </Link>
+        <p className="mt-4 text-blue-400 hover:text-blue-500 underline transition duration-300 cursor-pointer">
+          Upgrade Your Subscription
+        </p>
       </div>
     </div>
   );
