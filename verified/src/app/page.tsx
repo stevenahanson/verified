@@ -5,6 +5,7 @@ export default function Home() {
       <p className="bg-blue-500 text-white py-2 px-4 rounded">
         Start Data Duel
       </p>
+      <p className="mt-4 text-blue-500 underline">Upgrade Your Subscription</p>
     </div>
   );
 }
